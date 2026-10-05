@@ -1,126 +1,113 @@
+<div align="center">
+
 <a href="https://excalidraw.com/" target="_blank" rel="noopener">
   <picture>
     <source media="(prefers-color-scheme: dark)" alt="Excalidraw" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2FExcalidraw_Github_cover_dark.png" />
-    <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2FExcalidraw_Github_cover.png" />
+    <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2FExcalidraw_Github_cover.png" width="800" />
   </picture>
 </a>
 
-<h4 align="center">
-  <a href="https://excalidraw.com">Excalidraw Editor</a> |
-  <a href="https://blog.excalidraw.com">Blog</a> |
-  <a href="https://docs.excalidraw.com">Documentation</a> |
-  <a href="https://plus.excalidraw.com">Excalidraw+</a>
-</h4>
+# Excalidraw
 
-<div align="center">
-  <h2>
-    An open source virtual hand-drawn style whiteboard. </br>
-    Collaborative and end-to-end encrypted. </br>
-  <br />
-  </h2>
+### Virtual whiteboard for sketching hand-drawn like diagrams with end-to-end encryption.
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Canvas API](https://img.shields.io/badge/Canvas-Rough.js-EA4335?style=flat-square&logo=html5&logoColor=white)](https://roughjs.com/)
+[![E2E Encryption](https://img.shields.io/badge/Security-E2E%20Encrypted-4CAF50?style=flat-square&logo=letsencrypt&logoColor=white)](https://excalidraw.com)
+[![PWA](https://img.shields.io/badge/PWA-Offline%20First-5A0FC8?style=flat-square&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
+
+[**Live Editor**](https://excalidraw.com) • [**Documentation**](https://docs.excalidraw.com) • [**Blog**](https://blog.excalidraw.com) • [**Excalidraw+**](https://plus.excalidraw.com)
+
 </div>
 
-<br />
-<p align="center">
-  <a href="https://github.com/excalidraw/excalidraw/blob/master/LICENSE">
-    <img alt="Excalidraw is released under the MIT license." src="https://img.shields.io/badge/license-MIT-blue.svg"  />
-  </a>
-  <a href="https://docs.excalidraw.com/docs/introduction/contributing">
-    <img alt="PRs welcome!" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat"  />
-  </a>
-  <a href="https://discord.gg/UexuTaE">
-    <img alt="Chat on Discord" src="https://img.shields.io/discord/723672430744174682?color=738ad6&label=Chat%20on%20Discord&logo=discord&logoColor=ffffff&widge=false"/>
-  </a>
-  <a href="https://twitter.com/excalidraw">
-    <img alt="Follow Excalidraw on Twitter" src="https://img.shields.io/twitter/follow/excalidraw.svg?label=follow+@excalidraw&style=social&logo=twitter"/>
-  </a>
-</p>
+---
 
-<div align="center">
-  <figure>
-    <a href="https://excalidraw.com" target="_blank" rel="noopener">
-      <img src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2Fproduct_showcase.png" alt="Product showcase" />
-    </a>
-    <figcaption>
-      <p align="center">
-        Create beautiful hand-drawn like diagrams, wireframes, or whatever you like.
-      </p>
-    </figcaption>
-  </figure>
-</div>
+## 🎨 Overview
 
-## Features
+**Excalidraw** is an open-source virtual hand-drawn style whiteboard that lets you easily sketch diagrams, wireframes, flowcharts, architecture plans, and freeform sketches with a warm, organic feel. Designed with an offline-first architecture, end-to-end encrypted real-time collaboration, and zero external runtime dependencies on canvas rendering, it is the industry-standard visual collaboration tool used by engineers at Google, Meta, Notion, and beyond.
 
-The Excalidraw editor (npm package) supports:
+---
 
-- 💯&nbsp;Free & open-source.
-- 🎨&nbsp;Infinite, canvas-based whiteboard.
-- ✍️&nbsp;Hand-drawn like style.
-- 🌓&nbsp;Dark mode.
-- 🏗️&nbsp;Customizable.
-- 📷&nbsp;Image support.
-- 😀&nbsp;Shape libraries support.
-- 👅&nbsp;Localization (i18n) support.
-- 🖼️&nbsp;Export to PNG, SVG & clipboard.
-- 💾&nbsp;Open format - export drawings as an `.excalidraw` json file.
-- ⚒️&nbsp;Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser...
-- ➡️&nbsp;Arrow-binding & labeled arrows.
-- 🔙&nbsp;Undo / Redo.
-- 🔍&nbsp;Zoom and panning support.
+## ✨ Features
 
-## Excalidraw.com
+- ✍️ **Hand-Drawn Aesthetic**: Procedural sketch style powered by [Rough.js](https://roughjs.com/) with customizable stroke width, slopiness, fill style, and rough edges.
+- 🔒 **End-to-End Encryption**: Real-time room collaboration encrypted client-side; server never sees your drawing keys.
+- 📡 **Offline-First PWA**: Fully functional offline with IndexedDB local persistence and Service Worker caching.
+- 📦 **Embeddable NPM Component**: Drop `<Excalidraw />` directly into any React application with zero friction.
+- 🔄 **Smart Arrow-Binding**: Arrows dynamically track and bind to shapes, cards, and text boxes as you move them.
+- 🖼️ **Multi-Format Export**: Export boards directly to vector SVG, high-resolution PNG, or native `.excalidraw` JSON.
+- 🌍 **Internationalization (i18n)**: Translated into 40+ languages with automated community localization.
+- 🗂️ **Custom Libraries**: Browse and install community icon and UI component libraries with 1-click.
 
-The app hosted at [excalidraw.com](https://excalidraw.com) is a minimal showcase of what you can build with Excalidraw. Its [source code](https://github.com/excalidraw/excalidraw/tree/master/src/excalidraw-app) is part of this repository as well, and the app features:
+---
 
-- 📡&nbsp;PWA support (works offline).
-- 🤼&nbsp;Real-time collaboration.
-- 🔒&nbsp;End-to-end encryption.
-- 💾&nbsp;Local-first support (autosaves to the browser).
-- 🔗&nbsp;Shareable links (export to a readonly link you can share with others).
+## 🚀 Quickstart
 
-We'll be adding these features as drop-in plugins for the npm package in the future.
+Run Excalidraw locally in 3 steps:
 
-## Quick start
-
-Install the [Excalidraw npm package](https://www.npmjs.com/package/@excalidraw/excalidraw):
-
+### 1. Clone the repository
+```bash
+git clone https://github.com/aeskafi/excalidraw.git
+cd excalidraw
 ```
+
+### 2. Install dependencies
+```bash
+yarn install
+```
+
+### 3. Launch development server
+```bash
+yarn start
+```
+The application will open automatically at [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 🛠️ Embedding in Your React App
+
+```bash
 npm install react react-dom @excalidraw/excalidraw
-```
-
-or via yarn
-
-```
+# or
 yarn add react react-dom @excalidraw/excalidraw
 ```
 
-Don't forget to check out our [Documentation](https://docs.excalidraw.com)!
+```tsx
+import React, { useState } from "react";
+import { Excalidraw } from "@excalidraw/excalidraw";
 
-## Contributing
+export default function App() {
+  return (
+    <div style={{ height: "100vh", width: "100vw" }}>
+      <Excalidraw />
+    </div>
+  );
+}
+```
 
-- Missing something or found a bug? [Report here](https://github.com/excalidraw/excalidraw/issues).
-- Want to contribute? Check out our [contribution guide](https://docs.excalidraw.com/docs/introduction/contributing) or let us know on [Discord](https://discord.gg/UexuTaE).
-- Want to help with translations? See the [translation guide](https://docs.excalidraw.com/docs/introduction/contributing#translating).
+---
 
-## Integrations
+## 🏗️ Architecture & Scripts
 
-- [VScode extension](https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor)
-- [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw)
+| Command | Description |
+| :--- | :--- |
+| `yarn start` | Runs local dev server on port 3000 with HMR |
+| `yarn build` | Produces optimized production bundle in `build/` |
+| `yarn test:typecheck` | Verifies full TypeScript typing |
+| `yarn test:app` | Executes Jest test suites across components & math modules |
+| `yarn test:code` | Runs ESLint analysis across TypeScript/TSX code |
 
-## Who's integrating Excalidraw
+---
 
-[Google Cloud](https://googlecloudcheatsheet.withgoogle.com/architecture) • [Meta](https://meta.com/) • [CodeSandbox](https://codesandbox.io/) • [Obsidian Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) • [Replit](https://replit.com/) • [Slite](https://slite.com/) • [Notion](https://notion.so/) • [HackerRank](https://www.hackerrank.com/) • and many others
+## 👥 Credits & Mission
 
-## Sponsors & support
+- **Original Project**: Created with love by the [Excalidraw Core Team and Contributors](https://github.com/excalidraw/excalidraw).
+- **Curation & Modernization**: Maintained and curated by **[Arham Eskafi](https://arham.dev)** — Rapid MVP Specialist, Full-Stack Architect, and creator of **[Walk Cook Live](https://youtube.com/@walkcooklive)**, documenting overland nomadic adventures and cutting-edge software engineering across the globe.
 
-If you like the project, you can become a sponsor at [Open Collective](https://opencollective.com/excalidraw) or use [Excalidraw+](https://plus.excalidraw.com/).
+---
 
-## Thank you for supporting Excalidraw
+## 📄 License
 
-[<img src="https://opencollective.com/excalidraw/tiers/sponsors/0/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/0/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/1/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/1/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/2/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/2/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/3/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/3/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/4/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/4/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/5/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/5/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/6/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/6/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/7/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/7/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/8/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/8/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/9/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/9/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/10/avatar.svg?avatarHeight=120"/>](https://opencollective.com/excalidraw/tiers/sponsors/10/website)
-
-<a href="https://opencollective.com/excalidraw#category-CONTRIBUTE" target="_blank"><img src="https://opencollective.com/excalidraw/tiers/backers.svg?avatarHeight=32"/></a>
-
-Last but not least, we're thankful to these companies for offering their services for free:
-
-[![Vercel](./.github/assets/vercel.svg)](https://vercel.com) [![Sentry](./.github/assets/sentry.svg)](https://sentry.io) [![Crowdin](./.github/assets/crowdin.svg)](https://crowdin.com)
+This project is licensed under the [MIT License](./LICENSE).
