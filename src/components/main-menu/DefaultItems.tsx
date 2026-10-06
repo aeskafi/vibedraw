@@ -12,7 +12,7 @@ import {
   TrashIcon,
   usersIcon,
 } from "../icons";
-import { GithubIcon, DiscordIcon, TwitterIcon } from "../icons";
+import { GithubIcon, GlobeIcon, YouTubeIcon } from "../icons";
 import DropdownMenuItem from "../dropdownMenu/DropdownMenuItem";
 import DropdownMenuItemLink from "../dropdownMenu/DropdownMenuItemLink";
 import {
@@ -210,24 +210,24 @@ export const Socials = () => (
   <>
     <DropdownMenuItemLink
       icon={GithubIcon}
-      href="https://github.com/excalidraw/excalidraw"
+      href="https://github.com/aeskafi/vibedraw"
       aria-label="GitHub"
     >
       GitHub
     </DropdownMenuItemLink>
     <DropdownMenuItemLink
-      icon={DiscordIcon}
-      href="https://discord.gg/UexuTaE"
-      aria-label="Discord"
+      icon={GlobeIcon}
+      href="https://arham.dev"
+      aria-label="Website"
     >
-      Discord
+      Website (arham.dev)
     </DropdownMenuItemLink>
     <DropdownMenuItemLink
-      icon={TwitterIcon}
-      href="https://twitter.com/excalidraw"
-      aria-label="Twitter"
+      icon={YouTubeIcon}
+      href="https://youtube.com/@walkcooklive"
+      aria-label="Walk Cook Live"
     >
-      Twitter
+      Walk Cook Live
     </DropdownMenuItemLink>
   </>
 );

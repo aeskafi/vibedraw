@@ -480,6 +480,22 @@ export const DiscordIcon = createIcon(
   modifiedTablerIconProps,
 );
 
+export const GlobeIcon = createIcon(
+  <g strokeWidth="1.25">
+    <circle cx="10" cy="10" r="7.5" fill="none" />
+    <path d="M2.5 10h15M10 2.5a11 11 0 0 0 0 15 11 11 0 0 0 0-15" fill="none" />
+  </g>,
+  modifiedTablerIconProps,
+);
+
+export const YouTubeIcon = createIcon(
+  <g strokeWidth="1.25">
+    <rect x="2.5" y="4.5" width="15" height="11" rx="3" fill="none" />
+    <path d="M8.5 7.5l4.5 2.5-4.5 2.5z" fill="currentColor" />
+  </g>,
+  modifiedTablerIconProps,
+);
+
 export const TwitterIcon = createIcon(
   <g strokeWidth="1.25">
     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

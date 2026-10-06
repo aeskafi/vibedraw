@@ -1,5 +1,5 @@
 import React from "react";
-import { PlusPromoIcon } from "../../components/icons";
+import { GlobeIcon } from "../../components/icons";
 import { useI18n } from "../../i18n";
 import { WelcomeScreen } from "../../packages/excalidraw/index";
 import { isExcalidrawPlusSignedUser } from "../app_constants";
@@ -49,15 +49,13 @@ export const AppWelcomeScreen: React.FC<{
           <WelcomeScreen.Center.MenuItemLiveCollaborationTrigger
             onSelect={() => props.setCollabDialogShown(true)}
           />
-          {!isExcalidrawPlusSignedUser && (
-            <WelcomeScreen.Center.MenuItemLink
-              href="https://plus.excalidraw.com/plus?utm_source=excalidraw&utm_medium=app&utm_content=welcomeScreenGuest"
-              shortcut={null}
-              icon={PlusPromoIcon}
-            >
-              Try Excalidraw Plus!
-            </WelcomeScreen.Center.MenuItemLink>
-          )}
+          <WelcomeScreen.Center.MenuItemLink
+            href="https://arham.dev"
+            shortcut={null}
+            icon={GlobeIcon}
+          >
+            Arham Eskafi (arham.dev)
+          </WelcomeScreen.Center.MenuItemLink>
         </WelcomeScreen.Center.Menu>
       </WelcomeScreen.Center>
     </WelcomeScreen>
